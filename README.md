@@ -10,7 +10,7 @@
 
 **Description:**
 
-Create a `datasources.tf` file. Retrieve information about the current GitHub repository. If you are not in a repository, you'll need to create one. Retrieve the current GitHub user, and all information about the repository, the branch, and the directory tree. To do this, you should only hardcode the repository name once and use references for everything else required. The information should all be found in the plan or from the `terraform show` command
+Create a new repository, or use the current one you're in if you are in your own repo. Create a `datasources.tf` file Retrieve the current GitHub user, and all information about the repository, the branch, and the directory tree. To do this, you should only hardcode the repository name once and use references for everything else required. The information should all be found in the plan or from the `terraform show` command
 
 **Acceptance Criteria:**
 
